@@ -6,3 +6,6 @@ To spin up a new stack run the create.sh followed by a stack name, like -
 Diagram for the whole infrastructure is provided [here](/udagram.png)
 
 Output URl for the website is [Udagram](http://udagr-WebAp-15ZY4Q2OOMAWA-606931153.us-east-2.elb.amazonaws.com/Udagram-website)
+
+## Note
+Replace the address of the static website with the s3 address of your own static website to the WebAppLaunchConfig section in the [cloudformation file](/Udagram1.yml).
